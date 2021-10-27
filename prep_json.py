@@ -35,4 +35,4 @@ fp.write(json.dumps(json_list,sort_keys=True,indent=4, separators=(',', ': ')))
 fp.close()
 print "new_merged_file.json is created"
 
-os.remove(modidy_file_before_processing)
+#os.remove(modidy_file_before_processing)
