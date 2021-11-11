@@ -5,9 +5,9 @@ import os
 import json
 
 file_before_processing = sys.argv[1]
-new_file_before_processing = '/tmp/test/'+file_before_processing
+new_file_before_processing = '/tmp/'+file_before_processing
 read_files = glob.glob(new_file_before_processing)
-modidy_file_before_processing =  '/tmp/test/new_'+file_before_processing
+modidy_file_before_processing =  '/tmp/new_'+file_before_processing
 
 read_files = glob.glob(new_file_before_processing)
 
